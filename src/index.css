@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+body {
+  font-family: 'Comic Neue', cursive;
+  background-color:#032541 ;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*--------------------------- general ---------------------- */
+
+.brbr
+{
+  background-color: #D9D7D7;
+  height: 1px;
+}
+.mainColor {
+  color: #a79344;
+}
+.hoverColor {
+  color: #171717;
+}
+.secondFontColor
+{
+  color: #939598;
+}
+.secondBgColor {
+  background-color: #a79344;
+}
+.brRadius
+{
+  border-radius: 7%;
+  border: #a79344 4px  solid;
+}
+
+.niew
+{
+  background-color: #a79344;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 7% ;
+  opacity: 0;
+  transition: all 1s;
+}
+.niew:hover{
+  top:0;
+  opacity: .9;
+}
+.movie
+{
+overflow: hidden;
+}
+/*--------------------------- general ---------------------- */
+
+/*--------------------------- star ---------------------- */
+.clip-star {
+  background: gold;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+}
+/*--------------------------- star ---------------------- */
+/*--------------------------- btnColor ---------------------- */
+.btnColor {
+  background-color:#032541;
+  color: white;
+  transition: all .5s;
+}
+.btnColor:hover {
+  background-color:#fff;
+  color: #a79344;
+}
+/*--------------------------- btnColor ---------------------- */
+
+/*--------------------------- carousel ---------------------- */
+
+.carousel-indicators li {
+  background-color: #a79344;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23a79344' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23a79344' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+
+}
+/*--------------------------- carousel ---------------------- */
+/*--------------------------- icon ---------------------- */
+
+.icon{
+  transition: all 1s;
+}
+.icon:hover{
+  color: #032541 !important;
+}
+/*--------------------------- icon ---------------------- */

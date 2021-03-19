@@ -1,0 +1,13 @@
+.submitColor{
+    background-color: #a79344;
+    color: white;
+    transition: all .7s;
+}
+
+.submitColor:hover {
+    background-color:#fff;
+    color: #a79344;
+}
+html,body{
+    overflow-x: hidden;
+}
